@@ -1,0 +1,138 @@
+nav {
+display: flex;
+background-color: #2E4374;
+justify-content: start;
+font-style: bold;
+text-align: justify;
+gap: 10px;
+height: 75px;
+padding: 30px;
+}
+h1 {
+    font-size: 45pt;
+}
+h2{
+ font-style: bold;
+ font-size: 35;
+}
+
+a:link {
+    padding-top: 30px;
+    color: #070505;
+    
+  }
+  
+  a:visited {
+    color: #fbfbfb;
+  }
+  
+  a:hover {
+    color:#E5C3A6;
+  }
+  
+  
+
+.columns {
+    display: flex;
+    padding-left: 30px;
+    flex-grow: 1;
+    flex-flow: row;
+    display: flex;
+    width: 88vw;
+    gap: 10px;
+flex-direction: row;
+justify-content: start;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.left-column2{
+padding: 5px;   
+margin: 10px;
+  width: 30%;
+     background-color: #2E4374;
+
+}
+.right-column2{ 
+    width: 70%;
+}
+.left-column{
+    padding-top:50px;
+    width: 50%;
+
+}
+.right-column{ 
+   padding-top: 200px;
+   padding-left: 50px;
+    width: 50%;
+}
+
+.shoe {
+    display: flex;
+   object-fit: cover;
+   height: 600px;
+}
+.button { 
+       background-color: #2E4374;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+
+
+
+.products {  
+    display: flex;
+    flex-grow: 1;
+    flex-flow: row;
+    margin: 0 auto;
+    gap: 50px;
+    padding-left: 50px;
+   justify-content: center;
+   
+
+   }
+
+  .product {
+    
+    
+    overflow: hidden;
+    
+  }
+  
+  .small-picture {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+  }
+  
+  h3 {
+    margin-top: 0;
+
+  }
+  
+  .description {
+    font-size: 12pt;
+    text-align: center;
+    width: 200px;
+ 
+  }
+  
+  .third-section{
+    background-color: #7C81AD;
+    color: #fbfbfb;
+    text-align: center;
+    padding: 30px;
+  }
+
+ footer{
+    display: flex;
+    background-color: #2E4374;
+    justify-content: center;
+    font-style: bold;
+    text-align: justify;
+   height: 75px;
+   gap: 30px;
+ }
